@@ -1,0 +1,87 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    padding-top: 2%;
+}
+
+main{
+    background-color: rgba(0,0,0,0.5);
+    padding: 5%;
+    border-radius: 10px;
+    width: 53%;
+    margin: auto;
+}
+
+#logo{
+    width: 25%;
+}
+
+.logo-text{
+    color: rgb(2, 243, 2);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+header,nav{
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(0, 255, 0);
+    padding: 1%;   
+}
+
+.pulsanti{
+    font-size: 12px;
+}
+
+.status-mon{
+    padding-top: 17px;
+    color: white;
+}
+
+.box {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 12%;
+    vertical-align: middle;
+    
+    appearance: none;
+}
+
+.box:checked {
+    background-color: gray;
+}
+
+.person{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.distanza{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+.carica1{
+    background-color: rgb(255, 230, 0);
+    width: 40%;
+    border-radius: 5px;
+    height: 27px;
+}
+.carica2{
+    background-color: rgb(60, 255, 0);
+    width: 65%;
+    border-radius: 5px;
+    height: 27px;
+}
+.carica3{
+    background-color: rgb(255, 51, 0);
+    width: 25%;
+    border-radius: 5px;
+    height: 27px;
+}
+
